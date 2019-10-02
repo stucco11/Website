@@ -1,75 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" href="icon.jpg">
-        <title>Joshua Hollander</title>
-    </head>
-    <div class="header">
-        <h1>Web Portfolio for Joshua Hollander</h1>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Joshua Hollander</title>
+    <link rel="icon" href="icon.jpg">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="mx-auto flex-sm-nowrap">
+        <ul class="navbar-nav nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutMe">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutMe">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Game Shelf</a>
+                <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+
+    <div class="container" style="padding: 10px">
+      <div class="row align-items-center justify-content-center">
+          <h1 class="text.center">Joshua Hollander</h1>
+      </div>
     </div>
 
-    <nav>
-        <ul class="navbar">
-                <li><a class="navlink" href="#AboutMe">About</a></li>
-                <li><a class="navlink" href="#Experience">Experience</a></li>
-                <li><a class="navlink" href="#Education">Education</a></li>
-                <li><a class="navlink" href="#Skills">Skills</a></li>
-                <li><a class="navlink" href="#Projects">Projects</a></li>
-                <li><a class="navlink" href="#Contact">Contact Me</a></li>
-        </ul>
-    </nav>
-
-    <body>
-        <div class="section">
-            <h2 id="AboutMe">About Me</h2>
-            <div class="section" style="margin:10px">
+    <div class="container" id="AboutMe" style="padding: 10px">
+        <h2 class="row align-items-center justify-content-center">About Me</h2>
+      <div class="row" style="padding-top: 10px">
+        <div class="col">
+          <img src="pic.jpg" width="200px" style="box-shadow: 0px 4px 8px gray"/>
+        </div>
+        <div class="col-8">
                 <p>I'm a Junior currently enrolled at the University of Wisconsin-Madison majoring in Computer Science with a certificate (Madison-talk for a minor) in Mathematics.</p>
-            </div>
         </div>
-        <div class="section">
-            <h2 id="Experience">Experience</h2>
-            <div class="section" style="margin:10px">
-                <ul>
-                    <li><strong>Cashier - Walmart</strong></li>
-                    <ul>
-                        <li>Assisted customers with inquiries and issues while providing excellent customer service</li>
-                        <li>Utilized quick thinking to promptly solve unexpected problems (primarily technical)</li>
-                    </ul>
-                    <li><strong>Production Assistant - Stephen Edward Graphics</strong></li>
-                    <ul>
-                        <li>Assisted production of vinyl decal creation through Adobe Illustrator on OSX, alongside cutting, peeling, applying transfer tape, and trimming decals</li>
-                        <li>Worked with decals that required immense attention to detail</li>
-                        <li>Assisted with the packaging and shipment of online orders</li>
-                        <li>Demonstrated and improved time management skills</li>
-                    </ul>
-                    <li><strong>Food Preparer - Four Lakes Market</strong></li>
-                    <ul>
-                        <li>Maintained and improved excellent customer service skills</li>
-                        <li>Utilized skills that required me to be detailed oriented and work in a fast-paced environment</li>
-                    </ul>
-                    <li><strong>Post-Production Assistant - UW Extension Publications Department</strong></li>
-                    <ul>
-                            <li>Manage both digital and physical file collections/databases of previously created publications (approx. 1,500+) alongside related forms associated with author contact histories and edit histories</li>
-                            <li>Assist the production process of publications by doing any necessary filing for the publication and creating a page for the publication where it can be purchased by the public at <a href="https://learningstore.extension.wisc.edu/">The Learning Store</a></li>
-                            <li>Utilize Adobe CC to create and edit graphics for online advertisements for products that are then posted onto multiple social media platforms</li>
-                            <li>Work with the Publishing Unit’s warehouse to coordinate the correct formatting, printing, and cutting of document proofs and final versions</li>
-                            <li>Digitize forms relating to the creation/editing/purchasing of older publications (circa early 1980s - present)</li>
-                            <li>Assist with the physical and digital transition of the Publishing Unit, as it is now under the ownership of UW-Madison (e.g. switching Ecommerce platforms and moving equipment to a new office environment)</li>
-                        </ul>
-                    <li><strong>Ecommerce Website Migration Extension Internship - UW Extension Publications Department</strong></li>
-                    <ul>
-                            <li>Assisted with the migration of 1,500+ PDF publication files, each of which must align with its product page counterpart</li>
-                            <li>Used HTML and CSS to assist with badging, branding, and visual design of individual product pages to align the Learning Store’s user interface with UW–Madison’s web guidelines and update catalog entries with legacy formatting</li>
-                            <li>Scouted the Learning Store catalog and publication pages for consistency in HTML formatting</li>
-                            <li>Ensured 301 redirects for URLs were functioning correctly</li>
-                            <li>Used Adobe CC to craft graphics and other marketing pieces for use on the Learning Store’s Shopify homepage and social media pages to promote new and revised publications</li>
-                            <li>Worked closely with the Publishing Unit’s off-site warehouse to coordinate, modify, and adjust Shopify email notifications for order fulfillment</li>
-                            <li>Created a custom invoicing sheet utilizing HTML, CSS, and Liquid (Shopify's custom template platform)</li>
-                        </ul>
-                </ul>
-            </div>
-        </div>
-    </body>
+      </div>
+    </div>
+
+    <div class="container" id="Experience" style="padding: 10px">
+      <h2 class="row align-items-center justify-content-center">Experience</h2>
+      <div class="section" style="margin:10px">
+        <ul>
+          <li><strong>Cashier - Walmart</strong></li>
+          <ul>
+            <li>Assisted customers with inquiries and issues while providing excellent customer service</li>
+            <li>Utilized quick thinking to promptly solve unexpected problems (primarily technical)</li>
+          </ul>
+          <li><strong>Production Assistant - Stephen Edward Graphics</strong></li>
+          <ul>
+            <li>Assisted production of vinyl decal creation through Adobe Illustrator on OSX, alongside cutting, peeling, applying transfer tape, and trimming decals</li>
+            <li>Worked with decals that required immense attention to detail</li>
+            <li>Assisted with the packaging and shipment of online orders</li>
+            <li>Demonstrated and improved time management skills</li>
+          </ul>
+          <li><strong>Food Preparer - Four Lakes Market</strong></li>
+          <ul>
+            <li>Maintained and improved excellent customer service skills</li>
+            <li>Utilized skills that required me to be detailed oriented and work in a fast-paced environment</li>
+          </ul>
+          <li><strong>Post-Production Assistant - UW Extension Publications Department</strong></li>
+          <ul>
+            <li>Manage both digital and physical file collections/databases of previously created publications (approx. 1,500+) alongside related forms associated with author contact histories and edit histories</li>
+            <li>Assist the production process of publications by doing any necessary filing for the publication and creating a page for the publication where it can be purchased by the public at <a href="https://learningstore.extension.wisc.edu/">The Learning Store</a></li>
+            <li>Utilize Adobe CC to create and edit graphics for online advertisements for products that are then posted onto multiple social media platforms</li>
+            <li>Work with the Publishing Unit’s warehouse to coordinate the correct formatting, printing, and cutting of document proofs and final versions</li>
+            <li>Digitize forms relating to the creation/editing/purchasing of older publications (circa early 1980s - present)</li>
+            <li>Assist with the physical and digital transition of the Publishing Unit, as it is now under the ownership of UW-Madison (e.g. switching Ecommerce platforms and moving equipment to a new office environment)</li>
+          </ul>
+          <li><strong>Ecommerce Website Migration Extension Internship - UW Extension Publications Department</strong></li>
+          <ul>
+            <li>Assisted with the migration of 1,500+ PDF publication files, each of which must align with its product page counterpart</li>
+            <li>Used HTML and CSS to assist with badging, branding, and visual design of individual product pages to align the Learning Store’s user interface with UW–Madison’s web guidelines and update catalog entries with legacy formatting</li>
+            <li>Scouted the Learning Store catalog and publication pages for consistency in HTML formatting</li>
+            <li>Ensured 301 redirects for URLs were functioning correctly</li>
+            <li>Used Adobe CC to craft graphics and other marketing pieces for use on the Learning Store’s Shopify homepage and social media pages to promote new and revised publications</li>
+            <li>Worked closely with the Publishing Unit’s off-site warehouse to coordinate, modify, and adjust Shopify email notifications for order fulfillment</li>
+            <li>Created a custom invoicing sheet utilizing HTML, CSS, and Liquid (Shopify's custom template platform)</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+      
+  </body>
 </html>
