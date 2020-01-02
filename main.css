@@ -1,5 +1,6 @@
 body {
     background-color: #383838;
+    padding-top: 40px;
 }
 
 #main-container {
@@ -13,4 +14,26 @@ body {
 
 .bottom-margin {
     margin-bottom: 10px;
+}
+
+/* Navbar Styles */
+.navbar{border-radius:0;}
+.navbar-toggler{border:1px solid rgba(0,0,0,0.2);}
+.navbar-toggler:hover{background:rgb(240,240,240)}
+.navbar-toggler:focus{outline:0;}
+.dropdown-toggle{cursor:pointer;}
+
+/* Navbar Collapse Styles To Stack Items At Mobile Widths*/
+@media(max-width:47.9em) {
+  .navbar .collapse{max-height:250px;width:100%;overflow-y:auto;overflow-x:hidden;}
+  .navbar .navbar-brand {float:none;display: inline-block;}
+  .navbar .navbar-nav>.nav-item { float: none; margin-left: .1rem;}
+  .navbar .navbar-nav {float:none !important;}
+  .nav-item{width:100%;text-align:left;}
+  .navbar .collapse .dropdown-menu {
+    position: relative;
+    float: none;
+    background:none;
+    border:none;
+  }
 }
