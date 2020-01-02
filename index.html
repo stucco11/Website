@@ -27,7 +27,6 @@
 <header>
  <!-- Navbar -->
  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-   
  <div class="container">
   <a class="navbar-brand" href="#">Joshua Hollander</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,16 +41,16 @@
         <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://github.com/stucco11">GitHub</a>
+        <a class="nav-link" href="mailto:stuccoeleven@gmail.com">Email</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" type="application/pdf" href="/Resume.pdf">Resume</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/joshua-hollander/">LinkedIn</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="mailto:stuccoeleven@gmail.com">Email</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" target="_blank" type="application/pdf" href="/Resume.pdf">Resume</a>
+        <a class="nav-link" target="_blank" href="https://github.com/stucco11">GitHub</a>
       </li>
     </ul>
   </div>
@@ -61,7 +60,7 @@
 
 <body>
   <div id="main-container" class="container">
-        <div class="container">
+    <div class="container">
       <div class="container" id="Experience">
         <h2 class="row align-items-center justify-content-center">Work Experience</h2>
         <div class="section top-margin">
@@ -208,20 +207,48 @@
                   <div class="row">
                     <strong>Bachelor of Science in Computer Science + Mathematics Certificate</strong>
                   </div>
+
                   <div class="row">
                     GPA: 2.9
                   </div>
                 </div>
                 <div class="p-2">2017 - Anticipated Grad. in 2021</div>
               </div>
-              <hr>
+            </div>
+            
+            <div class="list-group-item" id="UWMadCourseWord">
               <div class="d-flex">
                 <div class="col">
-                  <div class="row">
-                  <strong>Relavent Coursework</strong>
+                  <div class="row bottom-margin">
+                  <strong>Relevant Computer Science Coursework</strong>
                   </div>
                 </div>
               </div>
+              
+              <ul class="list-group-flush">
+                <li class="list-group-item">200 - Programming I (Fall 2017)</li>
+                <li class="list-group-item">300 - Programming II (Fall 2018)</li>
+                <li class="list-group-item">400 - Programming III (Spring 2019)</li>
+                <li class="list-group-item">240 - Discrete Mathematics (Fall 2019)</li>
+                <li class="list-group-item">559 - Computer Graphics (Fall 2019)</li>
+                <li class="list-group-item">368 - C++ for Java Programmers (Spring 2020)</li>
+                <li class="list-group-item">354 - Machine Organization (Spring 2020)</li>
+                <li class="list-group-item">577 - Intro to Algorithms (Spring 2020)</li>
+              </ul>
+
+              <div class="d-flex">
+                <div class="col">
+                  <div class="row bottom-margin top-margin">
+                  <strong>Relevant Mathematics Coursework</strong>
+                  </div>
+                </div>
+              </div>
+              <ul class="list-group-flush">
+                <li class="list-group-item">221 - Caclulus 1 (Fall 2018)</li>
+                <li class="list-group-item">222 - Caclulus 2 (Spring 2019)</li>
+                <li class="list-group-item">234 - Calculus 3 (Fall 2019)</li>
+                <li class="list-group-item">340 - Linear Algebra (Spring 2020)</li>
+              </ul>
             </div>
           </ul>
         </div>
@@ -246,7 +273,7 @@
                 <li class="list-group-item">C#</li>
                 <li class="list-group-item">XAML</li>
                 <li class="list-group-item">WPF (Alongside the MVVM pattern)</li>
-                <li class="list-group-item">Visual Basic</li>
+                <li class="list-group-item">C / C++</li>
               </ul>
             </div>
             <div class="list-group-item" id="WebDev">
@@ -259,7 +286,7 @@
               </div>
               <ul class="list-group-flush">
                 <li class="list-group-item">HTML5 / CSS</li>
-                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">JavaScript / THREE.js</li>
               </ul>
             </div>
             <div class="list-group-item" id="OtherSkills">
@@ -284,8 +311,7 @@
                 </div>
               </div>
               <ul class="list-group-flush">
-                <li class="list-group-item">Git</li>
-                <li class="list-group-item">GitHub</li>
+                <li class="list-group-item">Git / GitHub</li>
                 <li class="list-group-item">Azure DevOps</li>
               </ul>
             </div>
@@ -304,6 +330,78 @@
             </div>
           </ul>
         </div>
+      </div>
+
+      <hr>
+
+      <div class="container" id="Projects">
+        <h2 class="row align-items-center justify-content-center">Projects</h2>
+        <div class="section top-margin">
+          <ul class="list-group">
+            <div class="list-group-item" id="Personal">
+              <div class="d-flex">
+                <div class="col">
+                  <div class="row bottom-margin">
+                    <strong>Personal</strong>
+                  </div>
+                </div>
+              </div>
+              <ul class="list-group-flush">
+                <li class="list-group-item">
+                  <p>
+                    <strong>Game Shelf</strong>
+                  </p>
+                  <p>This is a personal project that I used to teach myself C#, WPF, and XAML while becoming familiar with Visual Studio and the MVVM pattern. I also used it to become familiar with Azure Dev Ops. I eventually want to create a web-based version as well.</p>
+                  <p>Game Shelf is a program that allows the user to search for the title of a game, pick the correct game from a returned list, and add the game to a collection (such as Playing, Want to Play, Dropped, etc.). This is done by using <a target="_blank" href="giantbomb.com">GiantBomb.com</a>'s public API to request information about the specified search term and displaying the returned results to the user in a condescend manner. The associated information and images of the selected game are then downloaded to a folder and act as a cache.</p>
+                  <p>Some future goals that I have for this project are:</p>
+                  <p>
+                    <ul>
+                      <li>Rewrite this program to be based on the web using HTML5 and JavaScript</li>
+                      <li>Allow the user to have more options for sorting games in their collection, including by genre, publisher, console, release year, ect.</li>
+                      <li>Allow the user to track how many hours they have spent playing each individual game</li>
+                      <li>Incorporate data from <a target="_blank" href="howlongtobeat.com">How Long To Beat</a> to be used alongside how much time the user has spent playing each game</li>
+                      <li>Utilize Steam's API to allow the user to import their games from their Steam libraries, then interface with GiantBomb to download the appropriate data for each of these titles</li>
+                      <li>Create a banner/ribbon that appears over games that are completed</li>
+                      <li>Achievement tracking</li>
+                      <li>Interface overhall</li>
+                      <li>Light/dark themes</li>
+                    </ul>
+                  </p>
+                  <i>Languages Used:</i> C#, XAML, WPF
+                </li>
+                
+              </ul>
+            </div>
+            <div class="list-group-item" id="AssortedCourseWork">
+              <div class="d-flex">
+                <div class="col">
+                  <div class="row bottom-margin">
+                    <strong>Assorted UW-Madison Coursework</strong>
+                  </div>
+                </div>
+              </div>
+              <ul class="list-group-flush">
+                <li class="list-group-item">HTML5 / CSS</li>
+                <li class="list-group-item">JavaScript / THREE.js</li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="container" id="ContactMe">
+        <h2 class="row align-items-center justify-content-center">Contact Information</h2>
+        <p>
+          <a href="mailto:jdhollander@wisc.edu">jdhollander@wisc.edu</a>
+        </p>
+        <p>
+          <a target="_blank" href="https://www.linkedin.com/in/joshua-hollander/">LinkedIn</a>
+        </p>
+        <p>
+          <a target="_blank" href="https://github.com/stucco11">GitHub</a>
+        </p>
       </div>
 
       <hr>
