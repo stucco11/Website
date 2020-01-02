@@ -34,11 +34,42 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#main-container">Homepage</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Homepage
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <a class="dropdown-item" href="#Experience">Work Experience</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#UWMad">Education</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#TechnicalKnowledge">Technical Knowledge</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#Experience">Work Experience</a>
+          </li>
+          <li>
+            <div class="dropdown-divider"></div>
+          </li>
+          <li>
+            <h4 class="dropdown-header">Projects</h4>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#Personal">Personal Projects</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#AssortedCoursework">Madison Coursework</a>
+          </li>
+          <li>
+            <div class="dropdown-divider"></div>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#ContactMe">Contact Me</a>
+          </li>
+        </ul>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="mailto:stuccoeleven@gmail.com">Email</a>
@@ -81,7 +112,7 @@
               </div>
               <ul class="list-group-flush">
                 <li class="list-group-item">Manage both digital and physical file collections/databases of previously
-                  created publications (approx. 1,500+) alongside related forms associated with author contact histories
+                  created publications (approximately 1,500+) alongside related forms associated with author contact histories
                   and edit histories</li>
                 <li class="list-group-item">Assist the production process of publications by doing any necessary filing
                   for the publication and creating a page for the publication where it can be purchased by the public at
@@ -347,7 +378,7 @@
                 </div>
               </div>
               <ul class="list-group-flush">
-                <li class="list-group-item">
+                <li class="list-group-item" id="GameShelf">
                   <p>
                     <strong>Game Shelf</strong>
                   </p>
@@ -365,6 +396,7 @@
                       <li>Achievement tracking</li>
                       <li>Interface overhall</li>
                       <li>Light/dark themes</li>
+                      <li>Eventually find a GiantBomb successor</li>
                     </ul>
                   </p>
                   <i>Languages Used:</i> C#, XAML, WPF
@@ -381,8 +413,32 @@
                 </div>
               </div>
               <ul class="list-group-flush">
-                <li class="list-group-item">HTML5 / CSS</li>
-                <li class="list-group-item">JavaScript / THREE.js</li>
+                <li class="list-group-item" id="559">
+                  <p>
+                    <strong>Graphics Workbooks</strong>
+                  </p>
+                  <p>In CS559, we have 12 programs that we had to create utilizing JavaScript and THREE.js. These programs allowed us to show mastery in a number of areas, including:</p>
+                  <p>
+                    <ul>
+                      <li>2D and 3D Transformation Math</li>
+                      <li>Creating Bezier Curves and Shapes in 2D</li>
+                      <li>Creating 3D Hierarchical Models</li>
+                      <li>Creating Meshes and Textures</li>
+                      <li>Creating Local Lighting and Interactions with created meshes</li>
+                      <li>Creating and Utilizing Maps (environmental, bump, metalness, ect.) </li>
+                      <li>Creating Custom Shaders</li>
+                    </ul>
+                  </p>
+                  <i>Languages Used:</i> JavaScript / THREE.js
+                </li>
+                <li class="list-group-item" id="Quizimodo">
+                  <p>
+                    <strong>Quizimodo</strong>
+                  </p>
+                  <p>This is a group project that was created in CS400, or Programming III. This program reads specific .json files that we referred to as 'quiz banks' and pulls quiz questions, answers, catagories, and images from them. The user can scan an unlimited number of these quiz banks and create a number of custom quizzes from them by specifying the number of total questions wanted and what categories should be present in the quiz.</p>
+                  <p>The user also has the ability to write their own quizzes as well. These questions that the user creates can be saved to a .json file upon the program's exit.</p>
+                  <i>Language Used:</i> Java, JavaFX
+                </li>
               </ul>
             </div>
           </ul>

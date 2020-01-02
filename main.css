@@ -16,6 +16,10 @@ body {
     margin-bottom: 10px;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 /* Navbar Styles */
 .navbar{border-radius:0;}
 .navbar-toggler{border:1px solid rgba(0,0,0,0.2);}
